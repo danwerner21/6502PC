@@ -13287,7 +13287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Custom:STD_DDW_DIP28"
 			(at 360.68 68.58 0)
 			(effects
 				(font
