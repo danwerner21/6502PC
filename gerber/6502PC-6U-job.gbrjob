@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2025-10-12T15:23:32-05:00"
+    "CreationDate": "2025-12-21T10:26:57-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "6502PC-6U",
       "GUID": "36353032-5043-42d3-9655-2e6b69636164",
-      "Revision": "6/20/2025 004"
+      "Revision": "12/21/2025 002"
     },
     "Size": {
       "X": 244.2,

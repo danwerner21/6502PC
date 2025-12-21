@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "6502PC")
-		(date "2025-10-05")
-		(rev "001")
+		(date "2025-12-21")
+		(rev "002")
 		(comment 1 "https://github.com/danwerner21/6502PC")
 		(comment 2 "Based on work by Andrew Lynch and John Coffman")
 	)
