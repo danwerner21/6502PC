@@ -1607,6 +1607,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 123.19) (xy 96.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319e2125-5e25-4ea0-a7f4-15b5f529f928")
+	)
+	(wire
+		(pts
 			(xy 88.9 130.81) (xy 96.52 130.81)
 		)
 		(stroke
@@ -1647,6 +1657,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 118.11) (xy 62.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e586992-5608-4486-a7e3-749ce0167f54")
+	)
+	(wire
+		(pts
 			(xy 88.9 125.73) (xy 96.52 125.73)
 		)
 		(stroke
@@ -1674,16 +1694,6 @@
 			(type default)
 		)
 		(uuid "446b9f5e-5d7d-4514-ab22-2c2362d57a66")
-	)
-	(wire
-		(pts
-			(xy 88.9 123.19) (xy 96.52 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44806aaa-66e0-407e-985f-42f49f7a7225")
 	)
 	(wire
 		(pts
@@ -2001,28 +2011,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUSALE"
-		(shape output)
-		(at 88.9 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d9e1370-c857-481c-bb9b-c0bfc9330df4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.4933 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2963,6 +2951,71 @@
 			(project "6809PC-6U"
 				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-00005274ff2a"
 					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 62.23 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5c85802-e90a-4504-b177-92fdf983caed")
+		(property "Reference" "#PWR0183"
+			(at 62.23 115.57 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 62.23 114.808 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2033b00-edb4-40a8-b09a-9ff3a18460ce")
+		)
+		(instances
+			(project "6502PC-6U"
+				(path "/d94f9d60-5ece-4752-b49c-b0d1c95f35bc/00000000-0000-0000-0000-00005274ff2a"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)

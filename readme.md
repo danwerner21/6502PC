@@ -9,8 +9,8 @@ See this repo (https://github.com/danwerner21/6x0x-DOS65) for ROM image and oper
 On the V1.0 board /VMA is not asserted long enough and needs to be just tied to ground.
 
 Patches:
-
  Lift Pin 1 of u5 74ls02.  Tie the socket of U5 pin 1 to ground.
+ U47 SCRATCH CONNECTION TO PIN 3 ON BOTTOM OF PCB.  TIE U47 PIN 3 TO +5V (DO NOT USE PIN 18 OF U47)
 
 Contrary to what is on the Schematic, the battery connector will not support a supercap, a battery is required.
 
