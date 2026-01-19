@@ -1,5 +1,5 @@
 # 6809PC
-The 6502PC is a 6502 ATX format board with 512K RAM, 4K ROM, with a flexible programmable MMU, battery backed up RTC, 6551 UART, and 6 ISAish slots.  This computer will run a version of DOS/65 by the fantastic CUBIX operating system by Richard A. Leary.  
+The 6502PC is a 6502 ATX format board with 512K RAM, 4K ROM, with a flexible programmable MMU, battery backed up RTC, 6551 UART, and 6 ISAish slots.  This computer will run a version of DOS/65 by Richard A. Leary.  
 
 See this repo (https://github.com/danwerner21/6x0x-DOS65) for ROM image and operating system.
 
